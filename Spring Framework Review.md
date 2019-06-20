@@ -19,7 +19,7 @@ Spring Framework Review
 
 
 
-**여기서 제어 역전(IoC)이란?** <u>
+### **여기서 제어 역전(IoC)이란?** <u>
 
 객체에 대한 제어권을 역전시켜(** 컨트롤러), 컨트롤러에게 제어권을 위임함으로써 
 
@@ -37,7 +37,7 @@ Spring Framework Review
 
 IoC container는 컨테이너가 클래스 내부에 만든 객체들(bean)의 의존성을 관리.
 
-**Spring Framework의 장점?** 
+### **Spring Framework의 장점?** 
 
 IoC를 가능케 하는 `ApplicationContext(Bean Factory)`를 자체적으로 지원.   
 
