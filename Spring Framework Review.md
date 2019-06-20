@@ -33,14 +33,6 @@ Spring Framework Review
 
 
 
-**그렇다면 제어 역전을 어떻게 진행할까?**      
-
-
-
-
-
-
-
 ## 2. IoC Controller
 
 IoC container는 컨테이너가 클래스 내부에 만든 객체들(bean)의 의존성을 관리.
@@ -51,7 +43,8 @@ IoC를 가능케 하는 `ApplicationContext(Bean Factory)`를 자체적으로 �
 
 
 
-IoC Container는 자기 자신(ApplicationContext)를 Bean으로 등록시켜 놓았기 때문에 직접 컨트롤러의 역할을 확인하고 싶으면 @Autowired로 값 주입하면 확인 가능하나... 쓸일은 거의 없다.    
+- IoC Container는 자기 자신(ApplicationContext)를 Bean으로 등록
+- 직접 컨트롤러의 역할을 확인하고 싶으면 @Autowired로 값 주입하면 확인 가능하나... 쓸일은 거의 없다.    
 
  <!--(예전에는 ServletApplication 생성 시 web.xml에 ApplicationType을 ServletListner에 argument로 전달해야 했었으나 버전이 올라오면서 Servlet이 java를 지원하고, xml를 사용하지 않게 되고 Spring Boot 등장으로 해당 설정들이 기본설정으로 감춰짐.)-->
 
